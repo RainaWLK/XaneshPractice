@@ -1,0 +1,75 @@
+## Interface: 80300
+## Title: XaneshPractice
+## Notes: Work in progress.
+## Author: Locryn + Dagnerous Padna + Lua Viper
+## Version: 0.4
+## SavedVariables: XANESHPRACTICE.SAVEDATA
+
+Namespace.lua
+Debug.lua
+Config.lua
+XaneshPractice.lua
+OnLoad.lua
+
+Utils/Error.lua
+Utils/OOP.lua
+Utils/Collision.lua
+Utils/CVars.lua
+Utils/Math.lua
+Utils/Polygon.lua
+Utils/Sets.lua
+Utils/String.lua
+Utils/ReusableFrames.lua
+Utils/ReusableCooldownFrames.lua
+Utils/ReusableButtonFrames.lua
+Utils/ReusableLeftalignedTextFrames.lua
+Utils/ReusableModelFrames.lua
+Utils/ReusableModelSceneFrames.lua
+Utils/ReusableParticleFrames.lua
+Utils/ReusableScrollFrames.lua
+Utils/BorderGraphicWithTitle.lua
+Utils/DraggableGameWindow.lua
+
+Game/Game.lua
+
+Game/Input/PlayerInputHandlers/PlayerInputHandler.lua
+Game/Input/PlayerInputHandlers/PlayerInputHandler_RaidControls.lua
+Game/Input/Keys.lua
+Game/Input/Key.lua
+
+Game/Environments/Environment.lua
+
+Game/GameObjects/GameObject.lua
+
+Game/Scenarios/Scenario.lua
+Game/Scenarios/Scenario_Menu.lua
+Game/Scenarios/ScenarioPlayerControls.lua
+Game/Scenarios/ScenarioPlayerControls_CharacterMode.lua
+Game/Scenarios/ScenarioPlayerControls_CharacterMode_3D.lua
+
+Game/DisplayObjects/DisplayObject.lua
+Game/DisplayObjects/DisplayObject_ModelSceneActor.lua
+
+Game/GameObjects/WoWObjects/WoWObject.lua
+Game/GameObjects/WoWObjects/AnimationModule.lua
+
+Game/GameObjects/WoWObjects/Mobs/Mob.lua
+Game/GameObjects/WoWObjects/Mobs/PlayerCharacters/PlayerCharacter.lua
+Game/GameObjects/WoWObjects/Mobs/AI/MobAI.lua
+Game/GameObjects/WoWObjects/Mobs/Nameplate.lua
+Game/GameObjects/WoWObjects/Mobs/MobClickZone.lua
+
+Game/CameraSystem/Camera.lua
+Game/CameraSystem/CameraManager.lua
+Game/CameraSystem/FrameLayer.lua
+
+Game/Menus/Label.lua
+Game/Menus/Button.lua
+
+Content/DefaultScenario/Namespace.lua
+Content/DefaultScenario/Scenario.lua
+Content/DefaultScenario/VoidRitual.lua
+Content/DefaultScenario/Layout.lua
+
+NEW_FILES.lua
+
