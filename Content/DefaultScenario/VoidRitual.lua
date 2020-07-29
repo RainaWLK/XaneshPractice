@@ -689,21 +689,21 @@ do
 		self.left:Show();self.left:SetAlpha(1)
 		self.parentframe=self.owner.environment.frame
 		self.left:SetParent(self.parentframe)
-		self.left:SetSize(2,400)
+		self.left:SetSize(4,400)
 		self.left:SetFrameLevel(200)
 		self.left.texture:Show()
-		self.left.texture:SetColorTexture(1,0,0,1)
+		self.left.texture:SetColorTexture(0.7,0.7,0.7,0.8)
 		self.right:Show();self.right:SetAlpha(1)
 		self.right:SetParent(self.left)
-		self.right:SetSize(2,400)
+		self.right:SetSize(4,400)
 		self.right:SetFrameLevel(200)
 		self.right.texture:Show()
-		self.right.texture:SetColorTexture(1,0,0,1)
+		self.right.texture:SetColorTexture(0.7,0.7,0.7,0.8)
 		self.drawable:SetAlpha(0)
 	end	
 	function class:SetPositionAndScale(position,scale)
-		local RADIUS=30
-		self.left:SetPoint("BOTTOM",self.parentframe,"CENTER",-RADIUS,-30)
+		local RADIUS=10
+		self.left:SetPoint("BOTTOM",self.parentframe,"CENTER",-RADIUS,-10)
 		self.right:SetPoint("BOTTOMLEFT",self.left,"BOTTOMLEFT",RADIUS*2,0)		
 		--self.drawable:SetAllPoints(self.parentframe)
 	end
